@@ -1,0 +1,26 @@
+; Engine configuration file.
+; NEXO — protótipo fase 1
+
+config_version=5
+
+[application]
+
+config/name="NEXO"
+config/description="Mundo social isométrico: lofts, IA companheira e Bolsa de itens."
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.3")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.03, 0.035, 0.08, 1)
+anti_aliasing/quality/msaa_2d=1
